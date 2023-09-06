@@ -22,6 +22,6 @@ $message = "
 <p>Menú: $menu </p> 
 </body>
 </html>";
- echo 'Gracias por comunicarse con nosotros';
+ echo 'Gracias por comunicarse con nosotras, tendra una respuesta en la brevedad!';
 mail($to, $subject, $message, $headers);
 ?>
